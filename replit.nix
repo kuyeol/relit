@@ -1,5 +1,6 @@
 { pkgs }: {
     deps = [
+      pkgs.twelf
       pkgs.nettools
       pkgs.openssh
         pkgs.graalvm17-ce
